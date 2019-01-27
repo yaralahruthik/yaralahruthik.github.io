@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sponsors {
+    background-color: white;
+    display: block;
+    transition: top 0.3s;
+}
+
+.sponsorHeading {
+    color: black;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#sponsors img { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: block;
+    padding: 5px;
+}
+
+#gallery img { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: block;
+    padding: 5px;
+}
+
+/* Desktop View */
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        position: relative;
+        padding: 4px;
+        height: auto;
+        width: 120px;
+        left: 0px;
+        display: inline;
+    }
+    
+    .menu {
+        float: right;
+        padding-top: 10px;
+        
+    }
+    
+    .menu a{
+        display: inline;
+        font-size: 20px;
+        background-color: #0005
+    }
+
+    .menuBar i{
+        display: none;
+    }
+
+    .menu.responsive a{
+        display: none;
+    }
+    
+    h1.mainHeading {
+        padding-top: 10px;
+        font-size: 55px;
+    }
+    
+    h2.mainInfo {
+        margin: auto;
+        width: 50%;
+        font-size: 35px;
+    }
+
+    i.down {
+        font-size: 100px;
+    }
+
+    h3.mainDate {
+        font-size: 30px;
+    }
+    
+    #sponsors {
+        height: 100%;
+    }
+    
+    .sponsorHeading {
+        font-size: 50px;
+    }
+
+    #sponsors img { 
+        height: 150px;
+        width: auto;
+        margin: auto;
+        display: inline-block;
+        padding: 25px;
+    }
+    
+    #gallery img {
+        height: auto;
+        width: 500px;
+        margin: auto;
+        display: inline-block;
+        padding: 25px;
+    }
+}
