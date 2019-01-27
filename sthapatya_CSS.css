@@ -61,9 +61,9 @@ html, body {
 .menu a{
     display: none;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 22px;
     font-family: 'Roboto Mono', monospace;
     color: white;
     background-color: black;
@@ -109,6 +109,7 @@ html, body {
     display: block;
     height: 100%;
     transition: top 0.3s;
+    padding: 10px;
 }
 
 h1.mainHeading {
@@ -116,7 +117,7 @@ h1.mainHeading {
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-    font-size: 45px;
+    font-size: 22px;
     font-family: 'Roboto Mono',monospace;
     color: white;
 }
@@ -133,7 +134,7 @@ a.registerButton {
     background-color: white;
     font-family: 'Roboto Mono', sans-serif;
     padding: 5px;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
     display: block;
     color: red;
@@ -149,7 +150,10 @@ a.registerButton:hover {
 h2.mainInfo {
     padding-top: 45px;
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     font-family: 'Quicksand', sans-serif;
     color: white;
 }
@@ -159,6 +163,9 @@ i.down {
     margin: auto;
     width: 50%;
     padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     font-size: 50px;
 }
 
@@ -169,8 +176,11 @@ i.down:hover {
 
 h3.mainDate {
     padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
 }
 
@@ -182,6 +192,7 @@ h3.mainDate {
     display: block;
     height: 100%;
     transition: top 0.3s;
+    padding: 10px;
 }
 
 h1.secondHeading {
@@ -190,7 +201,7 @@ h1.secondHeading {
     padding-right: 50px;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 40px;
+    font-size: 22px;
     font-family: 'Quicksand', sans-serif;
     color: white;
 }
@@ -199,7 +210,7 @@ h1.secondHeading {
     text-align: center;
     margin: auto;
     width: 95%;
-    font-size: 20px;
+    font-size: 16px;
     font-family: sans-serif;
     padding-top: 100px;
 }
@@ -212,6 +223,7 @@ h1.secondHeading {
     display: block;
     height: 100%;
     transition: top 0.3s;
+    padding: 10px;
 }
 
 #aboutCollege2 p {
@@ -219,7 +231,7 @@ h1.secondHeading {
     text-align: center;
     margin: auto;
     width: 95%;
-    font-size: 20px;
+    font-size: 16px;
     font-family: sans-serif;
     padding-top: 50px;
 }
@@ -233,7 +245,7 @@ h1.secondHeading {
 
 #aboutTeam {
     transition: top 0.3s;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 .column {
@@ -264,19 +276,20 @@ h1.secondHeading {
 
 .teamMember {
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .title {
     color: grey;
     font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .teamInfo {
     font-family: 'Quicksand', sans-serif;
     justify-content: center;
     font-weight: bold;
+    font-size: 15px;
 }
 
 #events {
@@ -287,11 +300,12 @@ h1.secondHeading {
      display: block;
      height: 100%;
      transition: top 0.3s;
+     padding: 10px;
 }
 
 h1.event {
     text-align: center;
-    font-size: 40px;
+    font-size: 22px;
     font-family: 'Quicksand', sans-serif;
     color: white;
     padding-top: 50px;
@@ -299,7 +313,7 @@ h1.event {
 
 h2.comingSoon {
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     color: white;
     padding-top: 250px;
@@ -313,12 +327,13 @@ h2.comingSoon {
     display: block;
     height: 100%;
     transition: top 0.3s;
+    padding: 10px;
     
 }
 
 h1.workshop {
     text-align: center;
-    font-size: 40px;
+    font-size: 22px;
     font-family: 'Quicksand', sans-serif;
     color: white;
     padding-top: 50px;
@@ -339,7 +354,7 @@ h1.workshop {
 
 h1.contact {
     text-align: center;
-    font-size: 40px;
+    font-size: 22px;
     font-family: 'Quicksand', sans-serif;
     color: white;
     padding-top: 50px;
@@ -354,7 +369,7 @@ h1.contact {
 label {
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 35px;
+    font-size: 18px;
 }
 
 input[type=text], input[type=email], textarea {
@@ -367,7 +382,7 @@ input[type=text], input[type=email], textarea {
     margin-bottom: 18px;
     resize: vertical;
     font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 input[type=submit] {
@@ -378,7 +393,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 input[type=submit]:hover {
@@ -394,12 +409,13 @@ input[type=submit]:hover {
     height: 50%;
     transition: top 0.3s;
     margin: auto;
+    padding: 10px;
 }
 
 h1.moreTitle {
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Quicksand', sans-serif;
     padding-top: 50px;
     padding-bottom: 25px;
@@ -408,14 +424,14 @@ h1.moreTitle {
 p.moreInfo {
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Quicksand', sans-serif;
 }
 
 p.mailAt {
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     padding-top: 10px;
 }
@@ -438,14 +454,14 @@ p.mailAt a:hover{
 
 i.fa-facebook {
     color: white;
-    padding: 50px;
-    font-size: 50px;
+    padding: 25px;
+    font-size: 25px;
 }
 
 i.fa-instagram {
     color: white;
-    padding: 50px;
-    font-size: 50px;
+    padding: 25px;
+    font-size: 25px;
 }
 
 i.fa-facebook:hover {
@@ -459,12 +475,13 @@ i.fa-instagram:hover {
 
 #footer {
     background-color: black;
+    padding: 10px;
 }
 
 .made {
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: serif;
 }
 
@@ -473,13 +490,13 @@ i.fa-instagram:hover {
     text-align: center;
     font-family: monospace;
     padding: 5px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
 /* Desktop View */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .logo {
         position: relative;
         padding: 4px;

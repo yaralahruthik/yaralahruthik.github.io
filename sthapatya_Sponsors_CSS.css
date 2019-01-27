@@ -5,6 +5,14 @@
     background-color: white;
     display: block;
     transition: top 0.3s;
+    padding: 10px;
+}
+
+#gallery {
+    background-color: white;
+    display: block;
+    transition: top 0.3s;
+    padding: 10px;
 }
 
 .sponsorHeading {
@@ -14,7 +22,7 @@
     padding-right: 50px;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 40px;
+    font-size: 22px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -36,7 +44,7 @@
 
 /* Desktop View */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .logo {
         position: relative;
         padding: 4px;
