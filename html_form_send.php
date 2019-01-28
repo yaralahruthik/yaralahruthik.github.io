@@ -1,6 +1,6 @@
 <?php
 
-if($_POST["submit"]) {
+if(isset($_POST["submit"])) {
     $recipient="sthapatya19@gmail.com";
     $subject="Form to email message";
     $sender=$_POST["name"];
