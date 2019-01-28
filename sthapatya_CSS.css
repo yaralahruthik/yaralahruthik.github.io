@@ -528,7 +528,7 @@ i.fa-instagram:hover {
     
     h1.mainHeading {
         padding-top: 10px;
-        font-size: 55px;
+        font-size: 45px;
     }
 
     .regButton {
@@ -542,7 +542,7 @@ i.fa-instagram:hover {
     h2.mainInfo {
         margin: auto;
         width: 50%;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     i.down {
@@ -550,7 +550,7 @@ i.fa-instagram:hover {
     }
 
     h3.mainDate {
-        font-size: 30px;
+        font-size: 20px;
     }
     
     h1.secondHeading {
@@ -561,7 +561,7 @@ i.fa-instagram:hover {
     #aboutCollege p {
         margin: auto;
         width: 50%;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #aboutCollege2 {
@@ -614,7 +614,7 @@ i.fa-instagram:hover {
     }
 
     h1.event {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     h2.comingSoon {
@@ -627,7 +627,7 @@ i.fa-instagram:hover {
     }
 
     h1.workshop {
-        font-size: 50px;
+        font-size: 40px;
     }
     
     #contactUs {
@@ -635,5 +635,5 @@ i.fa-instagram:hover {
     }
 
     h1.contact {
-        font-size: 50px;
+        font-size: 40px;
     }

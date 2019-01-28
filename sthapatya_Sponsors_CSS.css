@@ -76,13 +76,13 @@
     
     h1.mainHeading {
         padding-top: 10px;
-        font-size: 55px;
+        font-size: 35px;
     }
     
     h2.mainInfo {
         margin: auto;
         width: 50%;
-        font-size: 35px;
+        font-size: 25px;
     }
 
     i.down {
@@ -90,7 +90,7 @@
     }
 
     h3.mainDate {
-        font-size: 30px;
+        font-size: 20px;
     }
     
     #sponsors {
@@ -98,7 +98,7 @@
     }
     
     .sponsorHeading {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     #sponsors img { 
