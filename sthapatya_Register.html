@@ -50,10 +50,55 @@
     </div>
     
     <div id="register">
-    
-    
-    
-    
+        <form action="" method="post">
+            <fieldset>
+                <p>
+                    Name: <br>
+                    <input type="text" name="name" placeholder="Hi, your name?">
+                </p>
+                <br>
+                <p>
+                    Mail ID: <br>
+                    <input type="email" name="email" placeholder="I need your E-mail ID!">
+                </p>
+                <br>
+                <p>
+                    Mobile: <br>
+                    <input type="text" name="mobile" placeholder="Maybe your number?">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    Event: <br>
+                    <select name="event" id="formEvent" onclick="getEventAmount()">
+                        <option value="None">None</option>
+                        <option value="Poster Presentation">Poster Presentation</option>
+                        <option value="Paper Presentation">Paper Presentation</option>
+                        <option value="CAD Ovation">CAD Ovation</option>
+                        <option value="Quickfix">Quickfix</option>
+                        <option value="Logiq">Logiq</option>
+                        <option value="Civiq">Civiq</option>
+                        <option value="It's Debatble">It's Debatble</option>
+                        <option value="Prototypical">Prototypical</option>
+                    </select>
+                </p>
+                <br>
+                <p>
+                    Workshop: <br>
+                    <select name="workshop" id="formWorkshop" onclick="getWorkshopAmount()">
+                        <option value="None">None</option>
+                        <option value="E-TABS">E-TABS</option>
+                        <option value="BIM-REVIT">BIM-REVIT</option>
+                    </select>
+                </p>
+                <p id="showEventAmount"></p>
+                <p id="showWorkshopAmount"></p>
+            </fieldset>
+            <br>
+            <p>
+                <input type="submit" name="submit" value="Submit">
+            </p>
+        </form>
     </div>
         
     <div id="socialMedia">
