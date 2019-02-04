@@ -30,9 +30,9 @@ document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
 + minutes + "m " + seconds + "s till";
 
 if (distance < 0) {
-clearInterval(z);
-document.getElementById("countdown").innerHTML = "Almost, ready to reveal";
-}
+    clearInterval(z);
+    document.getElementById("countdown").innerHTML = "Almost, ready to reveal";
+    }
 }, 1000);
 
 function getEventAmount() {
@@ -49,16 +49,16 @@ function getEventAmount() {
         document.getElementById("showEventAmount").innerHTML = "Amount to be paid for the event is Rs. 150.";
     }
     if (eventAmount === "Quickfix") {
-        document.getElementById("showEventAmount").innerHTML = "Amount to be paid for the event is 100.";
+        document.getElementById("showEventAmount").innerHTML = "Amount to be paid for the event is Rs. 300.";
     }
     if (eventAmount === "Logiq") {
         document.getElementById("showEventAmount").innerHTML = "Amount to be paid for the event is Rs. 100.";
     }
     if (eventAmount === "Civiq.") {
-        document.getElementById("showEventAmount").innerHTML = "Amount to be paid for the event is 100.";
+        document.getElementById("showEventAmount").innerHTML = "Amount to be paid for the event is Rs. 300.";
     }
     if (eventAmount === "It's Debatble") {
-        document.getElementById("showEventAmount").innerHTML = "Amount to be paid for the event is 100.";
+        document.getElementById("showEventAmount").innerHTML = "Amount to be paid for the event is Rs. 200.";
     }
     if (eventAmount === "Prototypical") {
         document.getElementById("showEventAmount").innerHTML = "No entry fee for this event.";
