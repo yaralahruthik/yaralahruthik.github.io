@@ -17,24 +17,6 @@ function menuAnimate() {
     }
 }
 
-var countDownDate = new Date("March 15, 2019 00:00:00").getTime();
-var z = setInterval(function() {
-var now = new Date().getTime();
-var distance = countDownDate - now;
-var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-var minutes = Math.floor((dSistance % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-+ minutes + "m " + seconds + "s till";
-
-if (distance < 0) {
-    clearInterval(z);
-    document.getElementById("countdown").innerHTML = "Almost, ready to reveal";
-    }
-}, 1000);
-
 function getEventAmount() {
 
     var eventAmount = document.getElementById("formEvent").value;
@@ -83,14 +65,20 @@ function getWorkshopAmount(){
     }
 }
 
-/*
-window.onscroll = function() {scrollMenu()};
+var countDownDate = new Date("March 15, 2019 10:00:00").getTime();
+var z = setInterval(function() {
+var now = new Date().getTime();
+var distance = countDownDate - now;
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-function scrollMenu() {
-    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("container").style.top = "0px";
-    } else {
-    document.getElementById("container").style.top = "-100px";
-    }
+document.getElementById("countTimer").innerHTML ="Just " + days + "d " + hours + "h "
++ minutes + "m " + seconds + "till the fest.";
+
+if (distance < 0) {
+clearInterval(z);
+document.getElementById("countTimer").innerHTML = "Almost, ready to reveal";
 }
-*/
+}, 1000);

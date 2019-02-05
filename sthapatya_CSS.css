@@ -166,7 +166,7 @@ p.timer {
     color: white;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     padding: 5px;
 }
 
@@ -236,7 +236,7 @@ h1.secondHeading {
     position: relative;
     height: auto;
     margin: auto;
-    width: 150px;
+    width: 100px;
     display: block;
     z-index: 0;
     padding: 5px;
@@ -576,7 +576,7 @@ i.fa-instagram:hover {
         position: relative;
         height: auto;
         margin: auto;
-        width: 180px;
+        width: 150px;
         display: block;
         z-index: 0;
         padding: 10px;
@@ -590,6 +590,7 @@ i.fa-instagram:hover {
         display: block;
         height: 100%;
         transition: top 0.3s;
+        padding: 10px;
     }
 
     #aboutCollege2 p {
@@ -641,6 +642,7 @@ i.fa-instagram:hover {
 
     #workshops {
         background-position: 50% 25%;
+        padding: 10px;
 
     }
 
