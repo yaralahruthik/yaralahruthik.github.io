@@ -1,0 +1,707 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	color: black;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Mobile View */
+
+#container{
+    display: block;
+    background-color: #0000;
+    border-radius: 6px;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 1;
+}
+
+.logoAndNavbar{
+    margin: auto;
+    z-index: 2;
+}
+
+.logo {
+    position: relative;
+    padding: 4px;
+    height: auto;
+    width: 150px;
+    left: 0px;
+    display: block; 
+}
+/*
+.logo2 {
+    position: relative;
+    height: auto;
+    width: 150px;
+    top: 25px;
+    left: 0px;
+    display: inline;
+}
+*/
+.logo3 {
+    position: relative;
+    height: auto;
+    width: 120px;
+    top: 15px;
+    right: 10px;
+    float: right;
+    display: inline-block;
+    z-index: 0;
+}
+
+.menu a{
+    display: none;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: black;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.menuBar {
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    z-index: 1;
+}
+
+.menuBar a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.menuBar a:hover{
+    background-color: black;
+    color: white;
+}
+
+.menuBar i{
+    color: red;
+}
+
+.menu.responsive a{
+    display: block;
+}
+
+#backGround {
+    background-image: url("/Photos/leaeves.jpeg");
+    background-position: 0px 65px;
+    background-repeat: repeat;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    transition: top 0.3s;
+    padding: 10px;
+}
+
+h1.mainHeading {
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto Mono',monospace;
+    color: black;
+}
+
+.finalLogo {
+    position: relative;
+    padding: 4px;
+    height: auto;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.regButton {
+    margin: auto;
+    padding-top: 20px;
+    width: 22%;
+}
+a.registerButton {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Roboto Mono', sans-serif;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    display: block;
+    color: red;
+    border-radius: 10px;
+}
+
+a.registerButton:hover {
+    background-color: red;
+    color: white;
+    transition: 0.6s;
+}
+
+h2.mainInfo {
+    padding-top: 45px;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+p.timer {
+    color: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    padding: 5px;
+}
+
+p.timer:hover {
+    color: red;
+    transition: 0.6s;
+}
+
+#mainDown {
+    color: black;
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+#mainDown:hover {
+    color: red;
+    transition: 0.8s;
+}
+
+i.down {
+    color: white;
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+i.down:hover {
+    color: red;
+    transition: 0.8s;
+}
+
+h3.mainDate {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+#aboutCollege {
+    background-image: url("/Photos/backGroundImage4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    transition: top 0.3s;
+    padding: 10px;
+}
+
+h1.secondHeading {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+#aboutCollege p {
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 100px;
+}
+
+.logo4 {
+    position: relative;
+    height: auto;
+    margin: auto;
+    width: 100px;
+    display: block;
+    z-index: 0;
+    padding: 5px;
+}
+
+#aboutCollege2 {
+    background-image: url("/Photos/20180318_194642.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    transition: top 0.3s;
+    padding: 10px;
+}
+
+#aboutCollege2 p {
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+.collegeImage { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+}
+
+#aboutTeam {
+    transition: top 0.3s;
+    padding: 10px;
+}
+
+.column {
+    margin: auto;
+    width: 95%;
+    display: block;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    transition: 0.6s;
+}
+
+.team {
+    padding: 10px 16px;
+}
+
+.team::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.teamMember {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+.title {
+    color: grey;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+}
+
+.teamInfo {
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#events {
+     background-image: url("/Photos/lampCreeper1.jpeg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: block;
+     height: 100%;
+     transition: top 0.3s;
+     padding: 10px;
+}
+
+h1.event {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    padding-top: 40px;
+}
+
+
+h2.comingSoon {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    padding-top: 250px;
+}
+
+a.eventPage {
+    color: white;
+    font-size: 20px;
+}
+
+a.eventPage:hover {
+    color: red;
+    transition: 0.6s;
+}
+
+#workshops {
+    background-image: url("/Photos/lampCreeper2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    transition: top 0.3s;
+    padding: 10px;
+}
+
+h1.workshop {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    padding-top: 50px;
+}
+
+#socialMedia {
+    background-color: black;
+    background-size: cover;
+    display: block;
+    height: 80%;
+    transition: top 0.3s;
+    margin: auto;
+    padding: 10px;
+}
+
+h1.moreTitle {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+p.moreInfo {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p.mailAt {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 10px;
+}
+
+p.mailAt a{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p.mailAt a:hover{
+    color: red;
+    transition: 0.6s;
+}
+
+p.callUs {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+#socialMedia ul li{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    text-align: center;
+    padding: 4px;
+}
+
+#icons {
+    text-align: center;
+}
+
+i.fa-facebook {
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+}
+
+i.fa-instagram {
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+}
+
+i.fa-facebook:hover {
+    color: blue;
+    transition: 0.6s;
+}
+i.fa-instagram:hover {
+    color: red;
+    transition: 0.6s;
+}
+
+#footer {
+    background-color: black;
+    padding: 10px;
+}
+
+.made {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: serif;
+}
+
+.copyRight {
+    color: gray;
+    text-align: center;
+    font-family: monospace;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+/* Desktop View */
+
+@media only screen and (min-width: 1024px) {
+    .logo {
+        position: relative;
+        padding: 4px;
+        height: auto;
+        width: 150px;
+        display: inline;
+    }
+    
+    .logo3 {
+        position: relative;
+        height: auto;
+        width: 150px;
+        top: 15px;
+        float: right;
+        display: inline-block;
+        z-index: 0;
+    }
+    
+    .menu {
+        float: right;
+        padding-top: 10px;
+        
+    }
+    .menu.responsive {
+        float: right;
+        padding-top: 10px;
+        
+    }
+    
+    .menu a{
+        display: inline;
+        font-size: 20px;
+        background-color: #0005
+    }
+    
+    .menu.responsive a{
+        display: inline;
+        font-size: 20px;
+        background-color: #0005
+    }
+
+    .menuBar i{
+        display: none;
+    }
+    
+    #backGround {
+        background-image: url("/Photos/leaeves.jpeg");
+        background-position: -450px -700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: 100%;
+        transition: top 0.3s;
+        padding: 10px;
+    }
+    
+    h1.mainHeading {
+        padding-top: 60px;
+        position: relative;
+        left: 60px;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .finalLogo {
+        position: relative;
+        padding: 4px;
+        height: auto;
+        width: 200px;
+        left: 80px;
+        display: block;
+        margin: auto;
+    }
+
+    .regButton {
+        padding: 20px;
+    }
+    a.registerButton {
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    h2.mainInfo {
+        margin: auto;
+        width: 50%;
+        font-size: 20px;
+    }
+
+    i.down {
+        font-size: 80px;
+    }
+
+    h3.mainDate {
+        font-size: 20px;
+    }
+    
+    h1.secondHeading {
+        padding-top: 10px;
+        font-size: 45px;
+    }
+    
+    #aboutCollege p {
+        margin: auto;
+        width: 50%;
+        font-size: 20px;
+    }
+    
+    .logo4 {
+        position: relative;
+        height: auto;
+        margin: auto;
+        width: 150px;
+        display: block;
+        z-index: 0;
+        padding: 10px;
+    }
+
+    #aboutCollege2 {
+        background-image: url("/Photos/20180318_194642.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: 100%;
+        transition: top 0.3s;
+        padding: 10px;
+    }
+
+    #aboutCollege2 p {
+        margin: auto;
+        width: 80%;
+        padding-left: 10px;
+        display: block;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    #aboutTeam {
+        padding-bottom: 50px;
+    }
+
+    .collegeImage { 
+        width: 50%;
+        padding-right: 60px;
+        float: left;
+        display: block;
+    }
+    
+    .column {
+        float: left;
+        width: 50%;
+        padding: 0 18px;
+    }
+    
+    .teamPhoto {
+        height: 500px;
+        width: 200px;
+    }
+    
+    .team {
+        padding: 15px 20px;
+    }
+    
+    #events {
+         background-position: 50% 33%;
+    }
+
+    h1.event {
+        font-size: 40px;
+    }
+
+    h2.comingSoon {
+        font-size: 25px;
+    }
+
+    #workshops {
+        background-position: 50% 25%;
+        padding: 10px;
+
+    }
+
+    h1.workshop {
+        font-size: 40px;
+    }
+    
+    #socialMedia {
+        background-position: 50% 25%;
+    }
+
+    h1.contact {
+        font-size: 40px;
+    }
