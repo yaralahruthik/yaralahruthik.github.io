@@ -65,7 +65,7 @@ function getWorkshopAmount(){
     }
 }
 
-var countDownDate = new Date("March 15, 2019 10:00:00").getTime();
+var countDownDate = new Date("March 13, 2019 10:00:00").getTime();
 var z = setInterval(function() {
 var now = new Date().getTime();
 var distance = countDownDate - now;
@@ -75,7 +75,7 @@ var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 document.getElementById("countTimer").innerHTML ="Just " + days + "d " + hours + "h "
-+ minutes + "m " + seconds + "till the fest.";
++ minutes + "m " + seconds + "s " + "till the fest.";
 
 if (distance < 0) {
 clearInterval(z);
