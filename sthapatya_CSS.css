@@ -394,7 +394,7 @@ h1.workshop {
     background-color: black;
     background-size: cover;
     display: block;
-    height: 80%;
+    height: 90%;
     transition: top 0.3s;
     margin: auto;
     padding: 10px;
@@ -405,7 +405,7 @@ h1.moreTitle {
     text-align: center;
     font-size: 22px;
     font-family: 'Quicksand', sans-serif;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 25px;
 }
 
