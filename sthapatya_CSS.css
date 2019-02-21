@@ -162,7 +162,7 @@ a.registerButton:hover {
 }
 
 h2.mainInfo {
-    padding-top: 20px;
+    padding-top: 15px;
     text-align: center;
     font-size: 16px;
     padding-left: 10px;
@@ -177,12 +177,16 @@ p.timer {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 22px;
-    padding: 5px;
+    padding: 4px;
 }
 
 p.timer:hover {
     color: red;
     transition: 0.6s;
+}
+
+#mainDown {
+    padding-top: 10px;
 }
 
 i.down {
@@ -193,7 +197,7 @@ i.down {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 i.down:hover {
@@ -207,7 +211,7 @@ h3.mainDate {
     padding-right: 10px;
     padding-bottom: 2px;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     color: white;
 }
 
