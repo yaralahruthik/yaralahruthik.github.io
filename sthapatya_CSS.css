@@ -169,7 +169,7 @@ h2.mainInfo {
     padding-right: 10px;
     padding-bottom: 10px;
     font-family: 'Quicksand', sans-serif;
-    color: black;
+    color: white;
 }
 
 p.timer {
@@ -390,6 +390,13 @@ h1.workshop {
     padding-top: 50px;
 }
 
+.video {
+    height: auto;
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
 #socialMedia {
     background-color: black;
     background-size: cover;
@@ -405,7 +412,7 @@ h1.moreTitle {
     text-align: center;
     font-size: 22px;
     font-family: 'Quicksand', sans-serif;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 25px;
 }
 
@@ -667,7 +674,7 @@ i.fa-instagram:hover {
     }
 
     h2.comingSoon {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     #workshops {
@@ -677,7 +684,16 @@ i.fa-instagram:hover {
     }
 
     h1.workshop {
-        font-size: 40px;
+        font-size: 30px;
+    }
+    
+    .video {
+        height: auto;
+        display: block;
+        width: 30%;
+        display: block;
+        padding: 10px;
+        margin: auto;
     }
     
     #socialMedia {
