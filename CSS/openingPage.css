@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+}
+body{
+	background-color: black;
+}
+
+/* Mobile */
+
+.openingPage {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+}
+
+.myPhoto {
+    height: auto;
+    width: 150px;
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    filter: grayscale(100%);
+}
+
+.myPhoto:hover {
+    filter: grayscale(0%);
+}
+
+h1, h2, h3 {
+    padding: 10px;
+}
+
+.openingText {
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    font-size: 14px;
+}
