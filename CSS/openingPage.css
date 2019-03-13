@@ -5,7 +5,6 @@ html * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	color: white;
 }
 body{
 	background-color: black;
@@ -18,6 +17,12 @@ body{
     text-align: center;
 }
 
+.myLogo {
+    position: fixed;
+    left: 10px;
+    width: 50px;
+}
+
 .myPhoto {
     height: auto;
     width: 150px;
@@ -25,15 +30,29 @@ body{
     position: fixed;
     top: 10px;
     right: 15px;
-    filter: grayscale(100%);
+    -webkit-transition: filter 1s;
+    transition: filter 1s;
+    animation-name: myPhoto;
+    animation-duration: 5s;
+    animation-fill-mode: none;
+}
+
+@keyframes myPhoto {
+    0% {filter: grayscale(100%) brightness(0%);}
+    100% {filter: grayscale(0%) brightness(100%);}
 }
 
 .myPhoto:hover {
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 
 h1, h2, h3 {
     padding: 10px;
+}
+
+@keyframes fadeText {
+    0% {top: 0px; color: black;}
+    100% {top: 200px; color: white;}
 }
 
 .openingText {
@@ -41,4 +60,80 @@ h1, h2, h3 {
     top: 200px;
     left: 20px;
     font-size: 14px;
+    animation-name: fadeText;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    padding: 5px;
+}
+
+@keyframes knowButton {
+    0% {color: black;}
+    100% {color: white;}
+}
+
+.enterPage a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    position: fixed;
+    font-size: 22px;
+    top: 380px;
+    left: 130px;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    animation-name: knowButton;
+    animation-duration: 5s;
+    animation-fill-mode: none;
+    padding: 5px;
+}
+
+.enterPage a:hover {
+    color: red;
+}
+
+.footer {
+    color: white;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    left: 100px;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    animation-name: knowButton;
+    animation-duration: 5s;
+}
+
+.footer:hover {
+    color: red;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    .openingPage {
+        width: 90%;
+    }
+    
+    .myLogo {
+        width: 80px;
+    }
+    
+    .myPhoto {
+        position: relative;
+        width: 250px;
+        float: right;
+    }
+    
+    .openingText {
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .enterPage a {
+        left: 530px;
+    }
+    
+    .footer {
+        left: 480px;
+    }
 }
