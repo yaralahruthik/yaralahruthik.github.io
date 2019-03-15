@@ -8,7 +8,7 @@ html * {
 }
 body{
 	background-color: black;
-}
+}   
 
 /* Mobile */
 
@@ -57,13 +57,14 @@ h1, h2, h3 {
 
 .openingText {
     position: fixed;
+    color: white;
     top: 200px;
-    left: 20px;
-    font-size: 14px;
+    left: 30px;
+    font-size: 12px;
     animation-name: fadeText;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    padding: 5px;
+    padding: 4px;
 }
 
 @keyframes knowButton {
@@ -74,17 +75,13 @@ h1, h2, h3 {
 .enterPage a {
     text-decoration: none;
     color: white;
-    text-align: center;
-    position: fixed;
-    font-size: 22px;
-    top: 380px;
-    left: 130px;
+    font-size: 18px;
     -webkit-transition: color 1s;
     transition: color 1s;
     animation-name: knowButton;
     animation-duration: 5s;
     animation-fill-mode: none;
-    padding: 5px;
+    padding: 3px;
 }
 
 .enterPage a:hover {
@@ -92,15 +89,16 @@ h1, h2, h3 {
 }
 
 .footer {
-    color: white;
-    padding: 5px;
+    color: gray;
     position: fixed;
-    bottom: 10px;
-    left: 100px;
+    bottom: 0;
+    text-align: center;
+    left: 0;
     -webkit-transition: color 1s;
     transition: color 1s;
     animation-name: knowButton;
     animation-duration: 5s;
+    width: 100%;
 }
 
 .footer:hover {
@@ -124,16 +122,8 @@ h1, h2, h3 {
     }
     
     .openingText {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         position: relative;
-    }
-    
-    .enterPage a {
-        left: 530px;
-    }
-    
-    .footer {
-        left: 480px;
     }
 }
