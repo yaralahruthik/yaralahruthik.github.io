@@ -105,6 +105,22 @@ h1, h2, h3 {
     color: red;
 }
 
+#line {
+    height: 150px;
+    width: 1px;
+    border-bottom: 2px solid white; 
+    -webkit-animation: increase 8s;
+    -moz-animation: increase 8s; 
+    -o-animation: increase 8s; 
+    animation: increase 8s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes increase {
+    100% {width: 100%;}
+}
+
 /* Desktop */
 @media only screen and (min-width: 1024px) {
     .openingPage {
@@ -125,5 +141,9 @@ h1, h2, h3 {
         font-size: 16px;
         text-align: center;
         position: relative;
+    }
+    
+    #line {
+        height: 0px;
     }
 }
