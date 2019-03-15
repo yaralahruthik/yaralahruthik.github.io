@@ -21,6 +21,10 @@ body{
     position: fixed;
     left: 10px;
     width: 50px;
+    animation: myPhoto 5s;
+    -o-animation: myPhoto 5s;;
+    -moz-animation: myPhoto 5s;
+    -webkit-animation: myPhoto 5s;
 }
 
 .myPhoto {
@@ -32,8 +36,10 @@ body{
     right: 15px;
     -webkit-transition: filter 1s;
     transition: filter 1s;
-    animation-name: myPhoto;
-    animation-duration: 5s;
+    -webkit-animation: myPhoto 5s;
+    -o-animation: myPhoto 5s;
+    -moz-animation: myPhoto 5s;
+    animation: myPhoto 5s;
     animation-fill-mode: none;
 }
 
@@ -61,8 +67,10 @@ h1, h2, h3 {
     top: 200px;
     left: 30px;
     font-size: 12px;
-    animation-name: fadeText;
-    animation-duration: 5s;
+    -webkit-animation: fadeText 5s;
+    -moz-animation: fadeText 5s;
+    -o-animation: fadeText 5s;
+    animation: fadeText 5s;
     animation-fill-mode: forwards;
     padding: 4px;
 }
@@ -78,8 +86,9 @@ h1, h2, h3 {
     font-size: 18px;
     -webkit-transition: color 1s;
     transition: color 1s;
-    animation-name: knowButton;
-    animation-duration: 5s;
+    -moz-animation: knowButton 5s; 
+    -o-animation: knowButton 5s;
+    animation: knowButton 5s;
     animation-fill-mode: none;
     padding: 3px;
 }
@@ -96,8 +105,9 @@ h1, h2, h3 {
     left: 0;
     -webkit-transition: color 1s;
     transition: color 1s;
-    animation-name: knowButton;
-    animation-duration: 5s;
+    -moz-animation: knowButton 8s; 
+    -o-animation: knowButton 8s;
+    animation: knowButton 8s;
     width: 100%;
 }
 
@@ -108,7 +118,7 @@ h1, h2, h3 {
 #line {
     height: 150px;
     width: 1px;
-    border-bottom: 2px solid white; 
+    border-bottom: 2px solid black; 
     -webkit-animation: increase 8s;
     -moz-animation: increase 8s; 
     -o-animation: increase 8s; 
@@ -118,7 +128,8 @@ h1, h2, h3 {
 }
 
 @keyframes increase {
-    100% {width: 100%;}
+    0% {border-bottom-color: black;}
+    100% {width: 100%; border-bottom-color: white;}
 }
 
 /* Desktop */
