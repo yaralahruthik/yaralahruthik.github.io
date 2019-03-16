@@ -81,20 +81,15 @@ h1, h2, h3 {
     padding: 4px;
 }
 
-@keyframes knowButton {
-    0% {color: black;}
-    100% {color: white;}
-}
-
 .enterPage a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     -webkit-transition: color 1s;
     transition: color 1s;
-    -moz-animation: knowButton 5s; 
-    -o-animation: knowButton 5s;
-    animation: knowButton 5s;
+    -moz-animation: fadeText 8s; 
+    -o-animation: fadeText 8s;
+    animation: fadeText 8s;
     animation-fill-mode: none;
     padding: 3px;
 }
