@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+
+i.fa-facebook:link{color: white;}
+i.fa-instagram:link{color: white;}
+i.fa-linkedin:link{color: white;}
+i.fa-snapchat:link{color: white;}
+i.fa-coffee:link{color: white;}
+i.material-icons:link{color: white;}
+
+i.fa-facebook:hover{color: blue;}
+i.fa-instagram:hover{color: red;}
+i.fa-linkedin:hover{color: skyblue;}
+i.fa-snapchat:hover{color: yellow;}
+i.fa-coffee:hover{color: saddlebrown;}
+i.material-icons:hover{color: red;}
+
+/* Mobile */ 
+
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
+i.menuIcon {
+    position: fixed;
+    top: 12px;
+    right: 15px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    -webkit-animation: fadeText 8s;
+    -moz-animation: fadeText 8s;
+    -o-animation: fadeText 8s;
+    animation: fadeText 8s;
+    animation-fill-mode: none;
+}
+
+i.menuIcon:hover {
+    color: red;
+    transition: 1s;
+}
+
+.menuOverlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlayContent {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menuOverlay a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Josefin Slab", serif;
+}
+
+.menuOverlay a:hover, .menuOverlay a:focus {
+    color: black;
+    background-color: white;
+}
+
+.menuOverlay .closeBtn {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 16px;
+}
+
+.closeBtn:hover {
+    color: red;
+    transition: 0.6s;
+}
+
+.openingPage {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    height: 100%;
+}
+
+.myLogo {
+    position: fixed;
+    left: 10px;
+    width: 50px;
+    animation: myPhoto 5s;
+    -o-animation: myPhoto 5s;;
+    -moz-animation: myPhoto 5s;
+    -webkit-animation: myPhoto 5s;
+}
+
+@keyframes myPhoto {
+    0% {filter: grayscale(100%) brightness(0%);}
+    100% {filter: grayscale(0%) brightness(100%);}
+}
+
+.myPhoto {
+    height: auto;
+    width: 180px;
+    display: block;
+    position: fixed;
+    top: 50px;
+    left: 15px;
+    -webkit-transition: filter 1s;
+    -o-transition: filter 1s;
+    -moz-transition: filter 1s;
+    transition: filter 1s;
+    -webkit-animation: myPhoto 5s;
+    -o-animation: myPhoto 5s;
+    -moz-animation: myPhoto 5s;
+    animation: myPhoto 5s;
+    animation-fill-mode: none;
+}
+
+.myPhoto:hover {
+    filter: grayscale(100%);
+}
+
+#line {
+    height:210px;
+    width: 1px;
+    border-bottom: 2px solid black; 
+    -webkit-animation: increase 8s;
+    -moz-animation: increase 8s; 
+    -o-animation: increase 8s; 
+    animation: increase 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes increase {
+    0% {border-bottom-color: black;}
+    100% {width: 100%; border-bottom-color: white;}
+}
+
+@keyframes fadeText {
+    0% {color: black;}
+    100% {color: white;}
+}
+
+.openingText {
+    position: fixed;
+    color: white;
+    text-align: justify;
+    top: 80px;
+    right: 60px;
+    font-size: 14px;
+    -webkit-animation: fadeText 8s;
+    -moz-animation: fadeText 8s;
+    -o-animation: fadeText 8s;
+    animation: fadeText 8s;
+    animation-fill-mode: none;
+    padding: 4px;
+}
+
+.iAM {
+    position: fixed;
+    top: 108px;
+    right: 180px;
+}
+
+.openingSocialMedia {
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    position: fixed;
+    width: 50%;
+    top: 230px;
+    right: 5px;
+    -webkit-animation: fadeText 8s;
+    -moz-animation: fadeText 8s;
+    -o-animation: fadeText 8s;
+    animation: fadeText 8s;
+    animation-fill-mode: none;
+}
+
+.openingSocialMedia p {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.SocialIcons{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    -webkit-animation: fadeText 8s;
+    -moz-animation: fadeText 8s;
+    -o-animation: fadeText 8s;
+    animation: fadeText 8s;
+    animation-fill-mode: none;
+}
+
+#Footer{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    margin: auto;
+}
+
+.fa.fa-coffee{
+    font-size: 12px;
+    padding: 2px;
+}
+.material-icons.size{
+    font-size: 12px;
+    padding: 2px;
+}
+.Copyright{
+    color: grey;
+}
