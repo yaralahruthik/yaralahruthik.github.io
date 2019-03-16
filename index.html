@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="CSS/openingPage.css">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Markazi+Text|Open+Sans" rel="stylesheet">
 <title>I am YHR</title>
+
 <style>
     div#load_screen{
 	    background: #000;
@@ -29,19 +30,21 @@
 	    margin: 300px auto;
     }
 </style>
+
 <script>
 window.addEventListener("load", function(){
 	var load_screen = document.getElementById("load_screen");
 	document.body.removeChild(load_screen);
 });
 </script>
+
 </head>
 
 <body>
     <div id="load_screen"><div id="loading">Wait I'm kinda slow!</div></div>
     <div class="openingPage">
         <a href=""><img class="myLogo" alt="Author logo" src="Photos/yhr.png"></a>
-        <img class="myPhoto" alt="Author" src="Photos/myPhotoSmallerSize.png">
+        <img class="myPhoto" alt="Author" src="Photos/myPhoto.png">
         <div class="openingText">
             <h1>#iamYHR</h1>
             <h2>Developer? Designer? Photographer?</h2>
@@ -56,5 +59,9 @@ window.addEventListener("load", function(){
             <h5>&copy; Yarala Hruthik Reddy 2019</h5>
     </div>
     <div id="line"></div>
+    
+    
+    
+    <script type="text/javascript" src="JS/openingPage.js"></script>
 </body>
 </html>

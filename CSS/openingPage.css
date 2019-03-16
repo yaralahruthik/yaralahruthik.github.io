@@ -12,6 +12,12 @@ body{
 
 /* Mobile */
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
 .openingPage {
     font-family: 'Josefin Slab', serif;
     text-align: center;
