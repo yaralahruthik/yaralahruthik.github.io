@@ -105,10 +105,15 @@ h1, h2, h3 {
     left: 0;
     -webkit-transition: color 1s;
     transition: color 1s;
-    -moz-animation: knowButton 8s; 
-    -o-animation: knowButton 8s;
-    animation: knowButton 8s;
+    -moz-animation: knowButtonFooter 8s; 
+    -o-animation: knowButtonFooter 8s;
+    animation: knowButtonFooter 8s;
     width: 100%;
+}
+
+@keyframes knowButtonFooter {
+    0% {color: black;}
+    100% {color: gray;}
 }
 
 .footer:hover {
