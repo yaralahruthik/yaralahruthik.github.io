@@ -82,8 +82,8 @@ i.menuIcon:hover {
 }
 
 .menuOverlay a:hover, .menuOverlay a:focus {
-    color: black;
-    background-color: white;
+    color: red;
+    transition: 0.6s;
 }
 
 .menuOverlay .closeBtn {
@@ -102,6 +102,8 @@ i.menuIcon:hover {
     font-family: 'Josefin Slab', serif;
     text-align: center;
     height: 100%;
+    display: block;
+    padding-bottom: 50%;
 }
 
 .myLogo {
@@ -123,7 +125,8 @@ i.menuIcon:hover {
     height: auto;
     width: 180px;
     display: block;
-    position: fixed;
+    position: absolute;
+    padding-bottom: 10px;
     top: 50px;
     left: 15px;
     -webkit-transition: filter 1s;
@@ -142,7 +145,7 @@ i.menuIcon:hover {
 }
 
 #line {
-    height:210px;
+    height: 210px;
     width: 1px;
     border-bottom: 2px solid black; 
     -webkit-animation: increase 8s;
@@ -163,7 +166,7 @@ i.menuIcon:hover {
 }
 
 .openingText {
-    position: fixed;
+    position: absolute;
     color: white;
     text-align: justify;
     top: 80px;
@@ -178,15 +181,14 @@ i.menuIcon:hover {
 }
 
 .iAM {
-    position: fixed;
-    top: 108px;
-    right: 180px;
+    position: absolute;
+    top: 30px;
+    right: 110px;
 }
 
 .openingSocialMedia {
     color: white;
-    font-family: 'Josefin Slab', serif;
-    position: fixed;
+    position: absolute;
     width: 50%;
     top: 230px;
     right: 5px;
@@ -202,7 +204,7 @@ i.menuIcon:hover {
     padding-bottom: 5px;
 }
 
-.SocialIcons{
+.SocialIcons {
     padding: 10px;
     color: white;
     text-align: center;
@@ -213,24 +215,163 @@ i.menuIcon:hover {
     animation-fill-mode: none;
 }
 
-#Footer{
+.somePhotos {
     color: white;
-    text-align: center;
-    font-size: 12px;
-    position: fixed;
-    bottom: 2px;
-    width: 100%;
-    margin: auto;
+    height: 100%;
+    display: block;
+    position: relative;
+    font-family: "Josefin Slab", serif;
+    padding-top: 10px;
+    -webkit-animation: fadeText 8s;
+    -moz-animation: fadeText 8s;
+    -o-animation: fadeText 8s;
+    animation: fadeText 8s;
+    animation-fill-mode: none;
 }
 
-.fa.fa-coffee{
+.somePhotos h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.somePhotos p {
+    padding-top: 15px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+.randomGrid {
+    padding-top: 10px;
+}
+
+#randomGridPhotos {
+    line-height: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 8x;
+    -moz-column-gap: 8x;
+    column-gap: 8px;
+}
+
+#randomGridPhotos img {
+    width: 100% !important;
+    height: auto !important;
+    filter: grayscale(100%);
+    -webkit-transition: filter 1s;
+    -o-transition: filter 1s;
+    -moz-transition: filter 1s;
+    transition: filter 1s;
+    -webkit-animation: myRandomGrid 15s;
+    -o-animation: myRandomGrid 15s;
+    -moz-animation: myRandomGrid 15s;
+    animation: myRandomGrid 15s;
+    animation-fill-mode: none;
+}
+
+@keyframes myRandomGrid {
+    0% {filter: grayscale(0%) brightness(0%);}
+    100% {filter: grayscale(100%) brightness(100%);}
+}
+
+#randomGridPhotos img:hover {
+    filter: grayscale(0%);
+}
+
+
+#Footer {
+    padding-top: 20px;
+    color: white;
+    text-align: center; 
+    font-size: 12px;
+    width: 100%;
+    margin: auto;
+    -webkit-animation: fadeText 8s;
+    -moz-animation: fadeText 8s;
+    -o-animation: fadeText 8s;
+    animation: fadeText 8s;
+    animation-fill-mode: none;
+}
+
+@keyframes knowButtonFooter {
+    0% {color: black;}
+    100% {color: gray;}
+}
+
+.fa.fa-coffee {
     font-size: 12px;
     padding: 2px;
 }
-.material-icons.size{
+.material-icons.size {
     font-size: 12px;
     padding: 2px;
 }
-.Copyright{
+.Copyright {
     color: grey;
+    -webkit-animation: knowButtonFooter 8s;
+    -moz-animation: knowButtonFooter 8s; 
+    -o-animation: knowButtonFooter 8s;
+    animation: knowButtonFooter 8s;
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1024px) {
+    .myLogo {
+        width: 80px;
+    }
+    
+    i.menuIcon {
+        font-size: 28px;
+    }
+    
+    .menuOverlay .closeBtn {
+        font-size: 28px;
+        padding: 10px;
+    }
+    
+    .menuOverlay a {
+        font-size: 28px;
+        padding: 18px;
+    }
+    
+    .myPhoto {
+        width: 300px;
+        left: 30px;
+    }
+    
+    #line {
+        height: 320px;
+    }
+    
+    .openingText {
+        top: 80px;
+        left: 500px;
+        font-size: 24px;
+        padding: 4px;
+    }
+
+    .iAM {
+        top: 50px;
+        left: -100px;
+    }
+
+    .openingSocialMedia {
+        width: 15%;
+        right: 180px;
+        top: 100px;
+    }
+
+    .openingSocialMedia p {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .SocialIcons {
+        padding: 15px;
+        font-size: 24px;
+    }
+    
 }

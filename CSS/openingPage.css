@@ -107,6 +107,7 @@ h1, h2, h3 {
     left: 0;
     -webkit-transition: color 1s;
     transition: color 1s;
+    -webkit-animation: knowButtonFooter 8s;
     -moz-animation: knowButtonFooter 8s; 
     -o-animation: knowButtonFooter 8s;
     animation: knowButtonFooter 8s;
