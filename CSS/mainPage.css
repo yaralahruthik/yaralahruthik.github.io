@@ -44,6 +44,7 @@ i.menuIcon {
     -o-animation: fadeText 8s;
     animation: fadeText 8s;
     animation-fill-mode: none;
+    z-index: 2;
 }
 
 i.menuIcon:hover {
@@ -55,7 +56,7 @@ i.menuIcon:hover {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left: 0;
     background-color: rgb(0, 0, 0);
@@ -114,6 +115,7 @@ i.menuIcon:hover {
     -o-animation: myPhoto 5s;;
     -moz-animation: myPhoto 5s;
     -webkit-animation: myPhoto 5s;
+    z-index: 2;
 }
 
 @keyframes myPhoto {
@@ -264,10 +266,10 @@ i.menuIcon:hover {
     -o-transition: filter 1s;
     -moz-transition: filter 1s;
     transition: filter 1s;
-    -webkit-animation: myRandomGrid 15s;
-    -o-animation: myRandomGrid 15s;
-    -moz-animation: myRandomGrid 15s;
-    animation: myRandomGrid 15s;
+    -webkit-animation: myRandomGrid 10s;
+    -o-animation: myRandomGrid 10s;
+    -moz-animation: myRandomGrid 10s;
+    animation: myRandomGrid 10s;
     animation-fill-mode: none;
 }
 

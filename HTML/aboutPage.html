@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Yarla Hruthik Reddy">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="Photography, Developer, Designer, Cinematography, I am YHR, Projects, Blogs, Assignments, Vanity, YHR, iamYHR, Yarala Hruthik Reddy, Hruthik Reddy, Yarala">
+<meta name="description" content="Personal website of a bloody genius, a photography enthusiast with various skills.">
+<link rel="icon" href="../Photos/yhrIcon.png">
+<link rel="stylesheet" type="text/css" href="../CSS/mainPage.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Markazi+Text|Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<title>I am YHR</title>
+
+<style>
+    div#load_screen{
+	    background: #000;
+	    opacity: 1;
+	    position: fixed;
+        text-align: center;
+        z-index:10;
+	    top: 0px;
+	    width: 100%;
+	    height: 1600px;
+        font-family: monospace;
+    }
+    div#load_screen > div#loading{
+	    color:#FFF;
+	    width:150px;
+	    height:24px;
+	    margin: 300px auto;
+    }
+</style>
+
+<script>
+window.addEventListener("load", function(){
+	var load_screen = document.getElementById("load_screen");
+	document.body.removeChild(load_screen);
+});
+</script>
+
+</head>
+
+<body>
+    <div id="load_screen">
+        <div id="loading">Told ya, I'm lazy!</div>
+    </div>
+    
+    <div id="myNav" class="menuOverlay">
+        <a href="javascript:void(0)" onclick="closeNav()"><i class="fa fa-times closeBtn"></i></a>
+        <div class="overlayContent">
+            <a href="#">Home</a>
+            <a href="#">Photos</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+    </div>
+    
+    <div class="openingPage">
+        <a href="mainPage.html"><img class="myLogo" alt="Author logo" src="../Photos/yhr.png"></a>
+        <span class="menuBar" onclick="openNav()"><i class="fa fa-bars menuIcon"></i></span>
+    </div>
+    
+    <div id="Footer">
+		<p class="MyLine">Made with <i class="fa fa-coffee"></i> and <i class="material-icons size">local_pizza</i></p>
+		<h5 class="Copyright">&copy;Yarala Hruthik Reddy 2019</h5>
+    </div>
+    
+    <script type="text/javascript" src="../JS/mainPage.js"></script>
+</body>
+</html>
