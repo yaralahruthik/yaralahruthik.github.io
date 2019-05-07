@@ -11,18 +11,20 @@ body{
 }
 
 i.fa-facebook:link{color: white;}
+i.fa-facebook:link{color: white;}
 i.fa-instagram:link{color: white;}
 i.fa-linkedin:link{color: white;}
 i.fa-snapchat:link{color: white;}
 i.fa-coffee:link{color: white;}
 i.material-icons:link{color: white;}
 
-i.fa-facebook:hover{color: blue;}
-i.fa-instagram:hover{color: red;}
-i.fa-linkedin:hover{color: skyblue;}
-i.fa-snapchat:hover{color: yellow;}
-i.fa-coffee:hover{color: saddlebrown;}
-i.material-icons:hover{color: red;}
+i.fa-facebook:hover{color: dodgerblue; transition: 0.6s;}
+i.fa-twitter:hover{color: deepskyblue; transition: 0.6s;}
+i.fa-instagram:hover{color: red; transition: 0.6s;}
+i.fa-linkedin:hover{color: skyblue; transition: 0.6s;}
+i.fa-snapchat:hover{color: yellow; transition: 0.6s;}
+i.fa-coffee:hover{color: saddlebrown; transition: 0.6s;}
+i.material-icons:hover{color: red; transition: 0.6s;}
 
 /* Mobile */ 
 
@@ -361,7 +363,7 @@ i.menuIcon:hover {
     }
 
     .openingSocialMedia {
-        width: 15%;
+        width: 18%;
         right: 180px;
         top: 100px;
     }
