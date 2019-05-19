@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.aboutMe {
+    color: white;
+    position: relative;
+    top: -170px;
+    width: 80%;
+    margin: auto;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    -webkit-animation: fadeText 8s;
+    -moz-animation: fadeText 8s;
+    -o-animation: fadeText 8s;
+    animation: fadeText 8s;
+    animation-fill-mode: none;
+}
+
+.aboutMe h1 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.aboutMe h3 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.aboutMe p {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .aboutMe h1 {
+        font-size: 26px;
+    }
+
+    .aboutMe h3 {
+        font-size: 22px;
+    }
+
+    .aboutMe p {
+        font-size: 18px;
+}
+}
