@@ -89,6 +89,14 @@ i.menuIcon:hover {
     transition: 0.6s;
 }
 
+.dropDownContent {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 .menuOverlay .closeBtn {
     position: absolute;
     top: 2px;
@@ -187,7 +195,7 @@ i.menuIcon:hover {
 .iAM {
     position: absolute;
     top: 30px;
-    right: 110px;
+    right: 130px;
 }
 
 .openingSocialMedia {
@@ -287,6 +295,8 @@ i.menuIcon:hover {
 
 #Footer {
     padding-top: 20px;
+    position: fixed;
+    bottom: 5px;
     color: white;
     text-align: center; 
     font-size: 12px;
@@ -352,7 +362,7 @@ i.menuIcon:hover {
     
     .openingText {
         top: 80px;
-        left: 500px;
+        left: 700px;
         font-size: 24px;
         padding: 4px;
     }
@@ -363,19 +373,37 @@ i.menuIcon:hover {
     }
 
     .openingSocialMedia {
+        position: relative;
         width: 18%;
-        right: 180px;
+        margin: auto;   
         top: 100px;
     }
 
     .openingSocialMedia p {
-        font-size: 24px;
-        padding-bottom: 10px;
+        font-size: 22px;
+        padding-bottom: 10px;   
     }
 
     .SocialIcons {
         padding: 15px;
         font-size: 24px;
+    }
+    
+    .openingPage {
+        font-family: 'Josefin Slab', serif;
+        text-align: center;
+        height: 100%;
+        display: block;
+        padding-bottom: 20%;
+    }
+
+    
+    .somePhotos h1 {
+        font-size: 24px;
+    }
+
+    .somePhotos p {
+        font-size: 16px;
     }
     
     #randomGridPhotos {
@@ -386,6 +414,10 @@ i.menuIcon:hover {
         -webkit-column-gap: 8x;
         -moz-column-gap: 8x;
         column-gap: 8px;
+    }
+    
+    #Footer {
+        font-size: 14px;
     }
     
 }

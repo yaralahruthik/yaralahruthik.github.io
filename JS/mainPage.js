@@ -15,3 +15,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.width = "0%"
 }
+
+function myDropDown() {
+    document.getElementById("dropDown").classList.toggle("show");
+}

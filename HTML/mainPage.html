@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Yarla Hruthik Reddy">
 <meta name="robots" content="index, follow">
-<meta name="keywords" content="Photography, Developer, Designer, Cinematography, I am YHR, Projects, Blogs, Assignments, Vanity, YHR, iamYHR, Yarala Hruthik Reddy, Hruthik Reddy, Yarala">
+<meta name="keywords" content="YHR, iamYHR, Yarala Hruthik Reddy, Hruthik Reddy, Yarala, Photography, Developer, Designer, Cinematography, I am YHR, Projects, Blogs, Assignments, Vanity">
 <meta name="description" content="Personal website of a bloody genius, a photography enthusiast with various skills.">
 <link rel="icon" href="../Photos/yhrIcon.png">
 <link rel="stylesheet" type="text/css" href="../CSS/mainPage.css">
@@ -51,11 +51,22 @@ window.addEventListener("load", function(){
     <div id="myNav" class="menuOverlay">
         <a href="javascript:void(0)" onclick="closeNav()"><i class="fa fa-times closeBtn"></i></a>
         <div class="overlayContent">
-            <a href="#">Home</a>
-            <a href="#">Photos</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
+            <a href="../index.html">Home</a>
+            <div class="dropDown">
+                <a href="#" onclick="myDropDown()" class="dropButton">/Photos/</a>
+                <div id="dropDown" class="dropDownContent">
+                    <a href="photoPageAnimal.html">Animals</a>
+                    <a href="photoPageArchitecture.html">Architecture</a>
+                    <a href="photoPageCities.html">Cities</a>
+                    <a href="photoPageNature.html">Nature</a>
+                    <a href="photoPagePeople.html"#>People</a>
+                    <a href="photoPageSports.html">Sports</a>
+                    <a href="photoPageOthers.html">Others</a>
+                </div>
+            </div>
+            <a href="blogPage.html">Blog</a>
+            <a href="contactPage.html">Contact</a>
+            <a href="aboutPage.html">About</a>
         </div>
     </div>
     

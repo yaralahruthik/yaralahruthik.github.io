@@ -1,2 +1,44 @@
 @charset "utf-8";
 /* CSS Document */
+
+* {box-sizing: border-box}
+
+/* SlideShow */
+.myLogo {
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    width: 50px;
+    animation: myPhoto 5s;
+    -o-animation: myPhoto 5s;;
+    -moz-animation: myPhoto 5s;
+    -webkit-animation: myPhoto 5s;
+    z-index: 2;
+}
+
+.slideShowContainer {
+    height: 100%;
+    margin: auto;
+    position: relative;
+    -webkit-transition: filter 1s;
+    -o-transition: filter 1s;
+    -moz-transition: filter 1s;
+    transition: filter 1s;
+    -webkit-animation: myPhoto 5s;
+    -o-animation: myPhoto 5s;
+    -moz-animation: myPhoto 5s;
+    animation: myPhoto 5s;
+    animation-fill-mode: none;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+

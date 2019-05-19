@@ -9,6 +9,7 @@
 <meta name="description" content="Personal website of a bloody genius, a photography enthusiast with various skills.">
 <link rel="icon" href="../Photos/yhrIcon.png">
 <link rel="stylesheet" type="text/css" href="../CSS/mainPage.css">
+<link rel="stylesheet" type="text/css" href="../CSS/contactPage.css">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Markazi+Text|Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -51,17 +52,44 @@ window.addEventListener("load", function(){
     <div id="myNav" class="menuOverlay">
         <a href="javascript:void(0)" onclick="closeNav()"><i class="fa fa-times closeBtn"></i></a>
         <div class="overlayContent">
-            <a href="#">Home</a>
-            <a href="#">Photos</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
+            <a href="../index.html">Home</a>
+            <div class="dropDown">
+                <a href="#" onclick="myDropDown()" class="dropButton">/Photos/</a>
+                <div id="dropDown" class="dropDownContent">
+                    <a href="photoPageAnimal.html">Animals</a>
+                    <a href="photoPageArchitecture.html">Architecture</a>
+                    <a href="photoPageCities.html">Cities</a>
+                    <a href="photoPageNature.html">Nature</a>
+                    <a href="photoPagePeople.html"#>People</a>
+                    <a href="photoPageSports.html">Sports</a>
+                    <a href="photoPageOthers.html">Others</a>
+                </div>
+            </div>
+            <a href="blogPage.html">Blog</a>
+            <a href="contactPage.html">Contact</a>
+            <a href="aboutPage.html">About</a>
         </div>
     </div>
     
     <div class="openingPage">
         <a href="mainPage.html"><img class="myLogo" alt="Author logo" src="../Photos/yhr.png"></a>
         <span class="menuBar" onclick="openNav()"><i class="fa fa-bars menuIcon"></i></span>
+    </div>
+    
+    <div class="introText">
+        <p>If you want to work with me, you can reach me here </p>
+        <br>
+        <a class="mailID" href="mailto:yaralahruthikreddy@gmail.com?Subject=Hello%20YHR" target="_top">yaralahruthikreddy@gmail.com</a>
+        <br>
+        <p>or</p>
+        <br>
+        <p>If you like my work, you can follow me anywhere</p>
+        <br>
+            <a class="SocialIcons" target="_blank" href="https://www.facebook.com/sunny.Y.H.R"><i class="fa fa-facebook"></i></a>
+            <a class="SocialIcons" target="_blank" href="https://twitter.com/yaralahruthik"><i class="fa fa-twitter"></i></a>
+            <a class="SocialIcons" target="_blank" href="https://www.instagram.com/i_m_yhr/"><i class="fa fa-instagram"></i></a>
+            <a class="SocialIcons" target="_blank" href="https://www.linkedin.com/in/yarala-hruthik-reddy/"><i class="fa fa-linkedin"></i></a>
+            <a class="SocialIcons" target="_blank" href="https://www.snapchat.com/add/hruthikreddy21"><i class="fa fa-snapchat"></i></a>
     </div>
     
     <div id="Footer">
