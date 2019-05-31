@@ -182,8 +182,9 @@ i.menuIcon:hover {
     color: white;
     text-align: justify;
     top: 80px;
-    right: 60px;
-    font-size: 14px;
+    left: 65%;
+    font-size: 12px;
+    margin-left: 2px;
     -webkit-animation: fadeText 8s;
     -moz-animation: fadeText 8s;
     -o-animation: fadeText 8s;
@@ -194,8 +195,9 @@ i.menuIcon:hover {
 
 .iAM {
     position: absolute;
-    top: 30px;
-    right: 130px;
+    top: 28px;
+    right: 105%;
+    margin-left: 2px;
 }
 
 .openingSocialMedia {
