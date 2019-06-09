@@ -278,10 +278,10 @@ i.menuIcon:hover {
     -o-transition: filter 1s;
     -moz-transition: filter 1s;
     transition: filter 1s;
-    -webkit-animation: myRandomGrid 10s;
-    -o-animation: myRandomGrid 10s;
-    -moz-animation: myRandomGrid 10s;
-    animation: myRandomGrid 10s;
+    -webkit-animation: myRandomGrid 6s;
+    -o-animation: myRandomGrid 6s;
+    -moz-animation: myRandomGrid 6s;
+    animation: myRandomGrid 6s;
     animation-fill-mode: none;
 }
 
